@@ -5,7 +5,10 @@ import profile from "../../Assets/Profile.jpeg";
 
 export default function HeroSection() {
   return (
-    <div className="w-full h-[500px] p-5 mb-10 grid grid-flow-col items-center">
+    <div
+      className="w-full h-[500px] p-5 mb-10 grid grid-flow-col items-center"
+      id="Home"
+    >
       <div className="w-[100px] flex flex-col gap-5 items-start absolute top-1/4 md:top-auto">
         <a
           href="https://www.linkedin.com/in/nadafilsa/"
