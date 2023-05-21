@@ -12,17 +12,17 @@ export default function HeroSection() {
           target="_blank"
           rel="noreferrer"
         >
-          <BsLinkedin />
+          <BsLinkedin size={20} />
         </a>
         <a href="https://github.com/nadafch" target="_blank" rel="noreferrer">
-          <BsGithub />
+          <BsGithub size={20} />
         </a>
         <a
           href="https://www.instagram.com/nadafch"
           target="_blank"
           rel="noreferrer"
         >
-          <BsInstagram />
+          <BsInstagram size={20} />
         </a>
       </div>
       <div className="w-full flex flex-col justify-center md:flex-row items-center">

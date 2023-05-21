@@ -1,15 +1,15 @@
 import React from "react";
-import Contact from "../../Assets/contact2.png";
+import Contact from "../../Assets/GirlWorking.png";
 import { HiMail } from "react-icons/hi";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Pages() {
   return (
-    <div className="w-full p-8">
+    <div className="w-full p-8" id="Contact">
       <div className="font-bold text-2xl md:text-3xl text-center">
         Get To Know Me
       </div>
-      <div className="w-full flex flex-wrap justify-around mt-16">
+      <div className="w-full flex flex-wrap justify-around mt-5">
         <div className="my-auto flex flex-col  justify-center gap-5">
           <div className="flex gap-3 items-center ">
             <div className="text-3xl">
@@ -30,11 +30,7 @@ export default function Pages() {
           </div>
         </div>
         <div>
-          <img
-            src={Contact}
-            alt=""
-            className="w-[300px] md:w-[400px] contrast-125 drop-shadow-xl"
-          />
+          <img src={Contact} alt="" className="w-[500px]" />
         </div>
       </div>
     </div>

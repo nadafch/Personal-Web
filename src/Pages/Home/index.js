@@ -9,15 +9,14 @@ import Footer from "../../Component/Footer";
 
 function Home() {
   return (
-    <div className="w-full h-screen scroll-smooth">
-      <Navbar />
+    <>
       <HeroSection />
       <About />
       <RecentWork />
       <Portofolio />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="w-full p-4 px-10 flex flex-wrap justify-between bg-stone-100 shadow-md">
+      <div className="w-full p-4 px-10 flex flex-wrap justify-between bg-stone-200/70 shadow-md sticky top-0 z-50">
         <div className="ml-2 text-lg font-semibold">Nadafch</div>
         <button className="block md:hidden" onClick={() => setOpen(!open)}>
           {!open ? <BsList /> : null}
