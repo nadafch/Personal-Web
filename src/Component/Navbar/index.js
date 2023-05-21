@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="w-full p-4 px-10 flex flex-wrap justify-between bg-stone-200/70 shadow-md sticky top-0 z-50">
+      <div className="w-full p-4 px-10 flex flex-wrap justify-between bg-stone-200/70 shadow-md sticky top-0 z-30">
         <div className="ml-2 text-lg font-semibold">Nadafch</div>
         <button className="block md:hidden" onClick={() => setOpen(!open)}>
           {!open ? <BsList /> : null}
@@ -28,9 +28,9 @@ function Navbar() {
         </div>
       </div>
       {open ? (
-        <div className="block md:hidden relative z-10">
+        <div className="block md:hidden relative z-50">
           <div className="w-full fixed inset-0 backdrop-blur-sm bg-black/10"></div>
-          <div className="w-1/2 p-5 fixed bg-white h-screen  right-0 top-0 shadow-lg ">
+          <div className="w-1/2 p-5 fixed bg-white h-screen right-0 top-0 shadow-lg ">
             <div className="w-full flex justify-end pr-5 mb-8">
               <button onClick={() => setOpen(!open)}>
                 <RxCross2 />
